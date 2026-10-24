@@ -1,0 +1,12 @@
+data/
+outputs/
+cache/
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+assets/proteins/datasets/
+/MMseqs2/
+/embeddings/
+/fasta-file/
+/assets/
+/proteins/
