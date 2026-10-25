@@ -1,0 +1,21 @@
+[protein-go]
+name = "protein_go"
+version = "0.0.1"
+description = "A model which predicts protein function from sequence"
+requires-python = "3.10.13"
+
+dependencies = [
+    "flax==0.10.4",
+    "jax==0.5.1",
+    "optax==0.2.4",
+    "tensorflow==2.19.0",
+    "torch==2.11.0+cu126",
+    "transformers==4.49.0",
+    "biopython==1.85",
+    "scikit-learn==1.4.2",
+    "tqdm==4.66.5",
+    "numpy==2.2.6",
+    "obonet==1.0.0",
+    "pandas==2.2.2",
+    "seaborn==0.13.2"
+    ]
